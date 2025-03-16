@@ -5,18 +5,26 @@ The Sudoku Solver is a backtracking-based algorithm that finds solutions to a 9�
 Sudoku is a number placement puzzle where the goal is to fill a 9×9 grid so that:
 
 Each row contains the numbers 1-9 exactly once.
+
 Each column contains the numbers 1-9 exactly once.
+
 Each 3×3 subgrid contains the numbers 1-9 exactly once.
-Given a partially filled Sudoku board, the algorithm finds a valid solution (if one exists) using backtracking.
+
+Given a empty Sudoku board, the algorithm finds a valid solution (if one exists) using backtracking.
 
 ### Algorithm
 The solution employs a recursive backtracking approach:
 
 The program searches for an empty cell in the grid.
+
 It tries placing numbers 1 to 9, checking if each placement is valid.
+
 If a valid number is found, it recursively proceeds to solve the next empty cell.
+
 If a conflict arises, the algorithm backtracks and tries a different number.
+
 Once the board is fully filled, a valid solution is found.
+
 ### Features
 ✔ Backtracking Algorithm: Ensures efficient searching while minimizing unnecessary computations.
 
@@ -27,9 +35,13 @@ Once the board is fully filled, a valid solution is found.
 ✔ Automatic Output: Displays the solved Sudoku board upon completion.
 
 ### How to Run
+
 Clone the repository.
+
 Run the program, providing a partially filled Sudoku grid as input.
+
 The program will return the solved Sudoku board (if a solution exists).
+
 Example 
 ```py
 sudoku_board = [
@@ -60,8 +72,11 @@ Expected Output
 3 4 5 2 8 6 1 7 9
 
 ### Technologies Used
+
 Programming Language:Java 
-Concepts: Backtracking, Recursion, Constraint Satisfaction
+
+Concepts: Backtracking, Recursion
+
 Output 
 ![image](https://github.com/user-attachments/assets/d98c9cf1-f57f-4777-9964-af02b9ebc1dd)
 
