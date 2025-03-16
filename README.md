@@ -19,8 +19,11 @@ If a conflict arises, the algorithm backtracks and tries a different number.
 Once the board is fully filled, a valid solution is found.
 ### Features
 ✔ Backtracking Algorithm: Ensures efficient searching while minimizing unnecessary computations.
+
 ✔ Constraint Checking: Validates number placement based on Sudoku rules (row, column, and 3×3 subgrid).
+
 ✔ Fast Execution: Solves most puzzles in milliseconds.
+
 ✔ Automatic Output: Displays the solved Sudoku board upon completion.
 
 ### How to Run
